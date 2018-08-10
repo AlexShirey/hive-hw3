@@ -1,0 +1,582 @@
+please, select what to do:
+0 - init tables and load data
+1 - create custom UDF function
+2 - find most popular device, browser, OS for each city using custom UDF.
+other - other hql to execute
+quit - quit
+starting hive (engine is tez) to execute HQL from ./hql/query_00_init_tables_load_data.hql...
+WARNING: Use "yarn jar" to launch YARN applications.
+
+Logging initialized using configuration in file:/etc/hive/2.4.0.0-169/0/hive-log4j.properties
+OK
+Time taken: 3.41 seconds
+OK
+Time taken: 5.454 seconds
+OK
+Time taken: 1.614 seconds
+OK
+Time taken: 1.314 seconds
+Query ID = root_20180809092519_ca9ad433-62dc-48dd-abaa-07783e66f81d
+Total jobs = 1
+Launching Job 1 out of 1
+
+
+Status: Running (Executing on YARN cluster with App id application_1533549737397_0065)
+
+Map 1: -/-	
+Map 1: 0/1	
+Map 1: 0(+1)/1	
+Map 1: 1/1	
+Loading data to table imp_sample123.city
+Table imp_sample123.city stats: [numFiles=1, numRows=362, totalSize=1834, rawDataSize=34390]
+OK
+Time taken: 7.981 seconds
+OK
+Time taken: 2.038 seconds
+OK
+Time taken: 1.987 seconds
+Query ID = root_20180809092531_fc843bb1-4f5a-4b61-9f06-44daed18b2e0
+Total jobs = 1
+Launching Job 1 out of 1
+
+
+Status: Running (Executing on YARN cluster with App id application_1533549737397_0065)
+
+Map 1: 0/15	
+Map 1: 0(+1)/15	
+Map 1: 0(+1)/15	
+Map 1: 0(+1)/15	
+Map 1: 0(+3)/15	
+Map 1: 0(+5)/15	
+Map 1: 0(+6)/15	
+Map 1: 0(+8)/15	
+Map 1: 0(+8)/15	
+Map 1: 0(+8)/15	
+Map 1: 0(+8)/15	
+Map 1: 0(+8)/15	
+Map 1: 0(+8)/15	
+Map 1: 1(+7)/15	
+Map 1: 1(+8)/15	
+Map 1: 1(+8)/15	
+Map 1: 1(+8)/15	
+Map 1: 2(+8)/15	
+Map 1: 3(+7)/15	
+Map 1: 3(+8)/15	
+Map 1: 4(+7)/15	
+Map 1: 5(+7)/15	
+Map 1: 6(+7)/15	
+Map 1: 7(+6)/15	
+Map 1: 7(+7)/15	
+Map 1: 7(+8)/15	
+Map 1: 8(+7)/15	
+Map 1: 9(+6)/15	
+Map 1: 10(+5)/15	
+Map 1: 10(+5)/15	
+Map 1: 11(+4)/15	
+Map 1: 12(+3)/15	
+Map 1: 12(+3)/15	
+Map 1: 13(+2)/15	
+Map 1: 14(+1)/15	
+Map 1: 15/15	
+Loading data to table imp_sample123.bid
+Table imp_sample123.bid stats: [numFiles=15, numRows=3158171, totalSize=197832428, rawDataSize=5559758340]
+OK
+Time taken: 52.445 seconds
+...execution of ./hql/query_00_init_tables_load_data.hql finished.
+please, select what to do:
+0 - init tables and load data
+1 - create custom UDF function
+2 - find most popular device, browser, OS for each city using custom UDF.
+other - other hql to execute
+quit - quit
+starting hive (engine is tez) to execute HQL from ./hql/query_01_create_function.hql...
+WARNING: Use "yarn jar" to launch YARN applications.
+
+Logging initialized using configuration in file:/etc/hive/2.4.0.0-169/0/hive-log4j.properties
+OK
+Time taken: 2.037 seconds
+OK
+Time taken: 5.222 seconds
+converting to local hdfs://sandbox.hortonworks.com:8020/data/lib/max_usage.jar
+Added [/tmp/fd9919b9-6eb4-42aa-8c4f-c8159a0169df_resources/max_usage.jar] to class path
+Added resources: [hdfs://sandbox.hortonworks.com:8020/data/lib/max_usage.jar]
+OK
+Time taken: 0.524 seconds
+...execution of ./hql/query_01_create_function.hql finished.
+please, select what to do:
+0 - init tables and load data
+1 - create custom UDF function
+2 - find most popular device, browser, OS for each city using custom UDF.
+other - other hql to execute
+quit - quit
+error: wrong option!
+please, select what to do:
+0 - init tables and load data
+1 - create custom UDF function
+2 - find most popular device, browser, OS for each city using custom UDF.
+other - other hql to execute
+quit - quit
+please, specify the path to HQL file:
+starting hive (engine is tez) to execute HQL from ./hql/query_02_max_usage.hql...
+WARNING: Use "yarn jar" to launch YARN applications.
+
+Logging initialized using configuration in file:/etc/hive/2.4.0.0-169/0/hive-log4j.properties
+OK
+Time taken: 1.85 seconds
+converting to local hdfs://sandbox.hortonworks.com:8020/data/lib/max_usage.jar
+Added [/tmp/638b38ec-cba1-478f-9c09-02140a3faa47_resources/max_usage.jar] to class path
+Added resources: [hdfs://sandbox.hortonworks.com:8020/data/lib/max_usage.jar]
+Query ID = root_20180809092846_08704a72-278b-422b-90e3-663d1567aeca
+Total jobs = 1
+Launching Job 1 out of 1
+
+
+Status: Running (Executing on YARN cluster with App id application_1533549737397_0067)
+
+Map 1: -/-	Map 3: -/-	Reducer 2: 0/92	
+Map 1: -/-	Map 3: 0/1	Reducer 2: 0/92	
+Map 1: 0/15	Map 3: 0/1	Reducer 2: 0/92	
+Map 1: 0/15	Map 3: 0/1	Reducer 2: 0/92	
+Map 1: 0/15	Map 3: 0/1	Reducer 2: 0/92	
+Map 1: 0(+2)/15	Map 3: 0/1	Reducer 2: 0/92	
+Map 1: 0(+5)/15	Map 3: 0/1	Reducer 2: 0/92	
+Map 1: 0(+6)/15	Map 3: 0/1	Reducer 2: 0/92	
+Map 1: 0(+7)/15	Map 3: 0/1	Reducer 2: 0/92	
+Map 1: 0(+7)/15	Map 3: 0(+1)/1	Reducer 2: 0/92	
+Map 1: 0(+7)/15	Map 3: 0(+1)/1	Reducer 2: 0/92	
+Map 1: 0(+7)/15	Map 3: 0(+1)/1	Reducer 2: 0/92	
+Map 1: 0(+7)/15	Map 3: 1/1	Reducer 2: 0/92	
+Map 1: 0(+8)/15	Map 3: 1/1	Reducer 2: 0/92	
+Map 1: 0(+8)/15	Map 3: 1/1	Reducer 2: 0/92	
+Map 1: 0(+8)/15	Map 3: 1/1	Reducer 2: 0/92	
+Map 1: 1(+7)/15	Map 3: 1/1	Reducer 2: 0/92	
+Map 1: 3(+7)/15	Map 3: 1/1	Reducer 2: 0/92	
+Map 1: 3(+8)/15	Map 3: 1/1	Reducer 2: 0/92	
+Map 1: 4(+7)/15	Map 3: 1/1	Reducer 2: 0/92	
+Map 1: 4(+8,-1)/15	Map 3: 1/1	Reducer 2: 0/92	
+Map 1: 5(+7,-1)/15	Map 3: 1/1	Reducer 2: 0/92	
+Map 1: 6(+7,-1)/15	Map 3: 1/1	Reducer 2: 0/92	
+Map 1: 6(+8,-1)/15	Map 3: 1/1	Reducer 2: 0/92	
+Map 1: 6(+8,-2)/15	Map 3: 1/1	Reducer 2: 0/92	
+Map 1: 7(+7,-2)/15	Map 3: 1/1	Reducer 2: 0/92	
+Map 1: 8(+6,-2)/15	Map 3: 1/1	Reducer 2: 0/92	
+Map 1: 8(+7,-2)/15	Map 3: 1/1	Reducer 2: 0/92	
+Map 1: 9(+6,-2)/15	Map 3: 1/1	Reducer 2: 0/92	
+Map 1: 9(+6,-2)/15	Map 3: 1/1	Reducer 2: 0(+1)/92	
+Map 1: 11(+4,-2)/15	Map 3: 1/1	Reducer 2: 0(+1)/92	
+Map 1: 13(+2,-2)/15	Map 3: 1/1	Reducer 2: 0(+5)/92	
+Map 1: 14(+1,-2)/15	Map 3: 1/1	Reducer 2: 0(+5)/92	
+Map 1: 14(+1,-2)/15	Map 3: 1/1	Reducer 2: 0(+6)/92	
+Map 1: 14(+1,-2)/15	Map 3: 1/1	Reducer 2: 0(+7)/92	
+Map 1: 14(+1,-2)/15	Map 3: 1/1	Reducer 2: 0(+7)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 0(+7)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 0(+8)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 2(+6)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 5(+7)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 6(+7)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 8(+6)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 13(+4)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 13(+8)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 17(+6)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 20(+6)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 22(+6)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 24(+6)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 26(+7)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 30(+6)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 33(+7)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 34(+7)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 40(+6)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 43(+6)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 45(+6)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 50(+4)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 53(+7)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 57(+6)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 61(+6)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 66(+6)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 69(+7)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 73(+5)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 75(+7)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 79(+6)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 83(+6)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 87(+5)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 91(+1)/92	
+Map 1: 15(-2)/15	Map 3: 1/1	Reducer 2: 92/92	
+OK
+31	chifeng	Computer (3496)	Windows XP (2677)	Internet Explorer 8 (999)
+116	chuzhou	Computer (1344)	Windows XP (966)	Internet Explorer 8 (341)
+37	xingan	Computer (1264)	Windows XP (1029)	Internet Explorer 8 (379)
+70	shuangyashan	Computer (2024)	Windows XP (1699)	Internet Explorer 8 (650)
+72	yichun_65	Computer (1602)	Windows XP (1334)	Internet Explorer 8 (519)
+175	luohe	Computer (2344)	Windows XP (1883)	Internet Explorer 8 (754)
+207	yueyang	Computer (3812)	Windows XP (2972)	Internet Explorer 8 (1004)
+229	shanwei	Computer (6703)	Windows XP (5174)	Chrome 21 (2057)
+242	wuzhou	Computer (4348)	Windows XP (3219)	Internet Explorer 8 (1302)
+341	yulin_333	Computer (2815)	Windows XP (2177)	Internet Explorer 8 (836)
+36	wulanchabu	Computer (1079)	Windows XP (829)	Internet Explorer 8 (305)
+93	suqian	Computer (3288)	Windows XP (2637)	Internet Explorer 8 (983)
+221	shantou	Computer (28903)	Windows XP (21893)	Chrome 21 (8062)
+336	baoji	Computer (3603)	Windows XP (2755)	Internet Explorer 8 (1079)
+40	NULL	Computer (2635)	Windows XP (1507)	Chrome 21 (673)
+166	kaifeng	Computer (3159)	Windows XP (2403)	Chrome 21 (808)
+180	zhoukou	Computer (3557)	Windows XP (2870)	Internet Explorer 8 (1060)
+309	kunming	Computer (13515)	Windows XP (8055)	Chrome 21 (3772)
+315	puer	Computer (854)	Windows XP (599)	Internet Explorer 8 (233)
+80	NULL	Computer (6153)	Windows XP (3788)	Internet Explorer 8 (1535)
+114	anqing	Computer (2668)	Windows XP (1972)	Internet Explorer 8 (816)
+150	zaozhuang	Computer (5369)	Windows XP (3872)	Internet Explorer 8 (1706)
+203	zhuzhou	Computer (5016)	Windows XP (3701)	Chrome 21 (1254)
+388	aletai	Computer (406)	Windows XP (303)	Internet Explorer 8 (115)
+12	cangzhou	Computer (6785)	Windows XP (5198)	Internet Explorer 8 (1938)
+286	leshan	Computer (4338)	Windows XP (3121)	Chrome 21 (1099)
+313	zhaotong	Computer (1147)	Windows XP (844)	Internet Explorer 8 (285)
+1	NULL	Computer (79809)	Windows XP (41417)	Chrome 21 (18095)
+20	jincheng	Computer (2335)	Windows XP (1689)	Internet Explorer 8 (675)
+71	daqing	Computer (5526)	Windows XP (4265)	Internet Explorer 8 (1615)
+213	huaihua	Computer (2866)	Windows XP (2257)	Internet Explorer 8 (719)
+217	guangzhou	Computer (213471)	Windows XP (130031)	Chrome 21 (53144)
+222	foshan	Computer (74403)	Windows XP (53764)	Chrome 21 (19856)
+316	lincang	Computer (669)	Windows XP (482)	Chrome 21 (193)
+322	dehong	Computer (606)	Windows XP (408)	Mobile Safari (197)
+5	tangshan	Computer (9634)	Windows XP (7282)	Chrome 21 (2636)
+215	xiangxi	Computer (1846)	Windows XP (1502)	Internet Explorer 8 (599)
+303	tongren	Computer (1699)	Windows XP (1375)	Internet Explorer 8 (464)
+308	NULL	Computer (1897)	Windows XP (1147)	Chrome 21 (541)
+368	NULL	Computer (680)	Windows XP (443)	Internet Explorer 8 (187)
+377	tulufan	Computer (408)	Windows XP (309)	Internet Explorer 8 (119)
+99	huzhou	Computer (3757)	Windows XP (2726)	Mobile Safari (1234)
+34	hulunbeier	Computer (2776)	Windows XP (2190)	Internet Explorer 8 (800)
+64	yanbian	Computer (3862)	Windows XP (2948)	Internet Explorer 8 (1198)
+172	jiaozuo	Computer (5248)	Windows XP (4158)	Internet Explorer 8 (1510)
+184	wuhan	Computer (31648)	Windows XP (19216)	Chrome 21 (8541)
+244	fangchenggang	Computer (1308)	Windows XP (983)	Internet Explorer 8 (414)
+87	lianyungang	Computer (4503)	Windows XP (3353)	Mobile Safari (2348)
+254	haikou	Computer (12081)	Windows XP (8575)	Chrome 21 (3378)
+312	baoshan	Computer (680)	Windows XP (444)	Chrome 21 (220)
+330	naqu	Computer (25)	Windows XP (22)	Internet Explorer 7 (16)
+331	ali	Computer (47)	Windows XP (32)	Internet Explorer 7 (16)
+379	changji	Computer (1678)	Windows XP (1279)	Internet Explorer 8 (463)
+75	mudanjiang	Computer (4383)	Windows XP (3584)	Internet Explorer 8 (1215)
+96	ningbo	Computer (14805)	Windows XP (9975)	Chrome 21 (4026)
+118	suzhou	Computer (2592)	Windows XP (2027)	Internet Explorer 8 (768)
+195	suizhou	Computer (1881)	Windows XP (1417)	Internet Explorer 8 (525)
+294	ziyang	Computer (1791)	Windows XP (1341)	Internet Explorer 8 (514)
+302	anshun	Computer (807)	Windows XP (595)	Mobile Safari (286)
+9	baoding	Computer (12009)	Windows XP (9254)	Internet Explorer 8 (3403)
+63	baicheng	Computer (1843)	Windows XP (1548)	Internet Explorer 8 (677)
+92	taizhou_jiangsu	Computer (4819)	Windows XP (3352)	Internet Explorer 8 (1397)
+102	quzhou	Computer (2870)	Windows XP (2138)	Internet Explorer 8 (762)
+130	zhangzhou	Computer (3456)	Windows XP (2638)	Mobile Safari (1080)
+139	xinyu	Computer (1427)	Windows XP (1084)	Internet Explorer 8 (372)
+147	jinan	Computer (17341)	Windows XP (11157)	Chrome 21 (4259)
+208	changde	Computer (3306)	Windows XP (2558)	Internet Explorer 8 (846)
+223	jiangmen	Computer (29826)	Windows XP (21584)	Chrome 21 (8346)
+287	nanchong	Computer (3603)	Windows XP (2557)	Internet Explorer 8 (913)
+48	yingkou	Computer (3399)	Windows XP (2761)	Internet Explorer 8 (967)
+98	jiaxing	Computer (9295)	Windows XP (6453)	Internet Explorer 8 (2399)
+164	NULL	Computer (3304)	Windows XP (2125)	Internet Explorer 8 (866)
+361	haidong	Computer (232)	Windows XP (181)	Chrome 21 (75)
+28	huhehaote	Computer (5387)	Windows XP (3632)	Chrome 21 (1373)
+113	tongling	Computer (1443)	Windows XP (1065)	Internet Explorer 8 (405)
+115	huangshan	Computer (1511)	Windows XP (1127)	Internet Explorer 8 (410)
+151	dongying	Computer (4268)	Windows XP (3138)	Internet Explorer 8 (1133)
+280	luzhou	Computer (2571)	Windows XP (1845)	Internet Explorer 8 (684)
+135	nanchang	Computer (11532)	Windows XP (7456)	Chrome 21 (3025)
+276	NULL	Computer (6203)	Windows XP (3982)	Chrome 21 (1628)
+292	yaan	Computer (1220)	Windows XP (819)	Internet Explorer 8 (312)
+299	guiyang	Computer (8790)	Windows XP (5705)	Chrome 21 (2496)
+393	NULL	Computer (23736)	Windows 7 (11833)	Chrome 30 (8347)
+65	NULL	Computer (2158)	Windows XP (1627)	Internet Explorer 8 (668)
+181	zhumadian	Computer (2552)	Windows XP (1972)	Internet Explorer 8 (731)
+364	hainanzangzu	Computer (132)	Windows XP (91)	Chrome 21 (41)
+26	lvliang	Computer (3242)	Windows XP (2513)	Internet Explorer 8 (1031)
+74	qitaihe	Computer (1069)	Windows XP (941)	Internet Explorer 8 (302)
+77	suihua	Computer (3082)	Windows XP (2637)	Internet Explorer 8 (1078)
+88	huaian	Computer (3948)	Windows XP (2878)	Internet Explorer 8 (1068)
+153	weifang	Computer (11014)	Windows XP (8418)	Internet Explorer 8 (2975)
+227	huizhou	Computer (41434)	Windows XP (31213)	Chrome 21 (10461)
+283	guangyuan	Computer (1694)	Windows XP (1281)	Internet Explorer 8 (437)
+326	lasa	Computer (528)	Windows XP (338)	Internet Explorer 7 (133)
+343	shangluo	Computer (1489)	Windows XP (1172)	Internet Explorer 8 (428)
+382	akesu	Computer (1373)	Windows XP (1028)	Internet Explorer 8 (388)
+134	NULL	Computer (2656)	Windows XP (1815)	Chrome 21 (724)
+225	maoming	Computer (13995)	Windows XP (10313)	Chrome 21 (3462)
+119	chaohu	Computer (2082)	Windows XP (1526)	Internet Explorer 8 (602)
+128	sanming	Computer (2149)	Windows XP (1684)	Chrome 21 (656)
+205	hengyang	Computer (4665)	Windows XP (3459)	Internet Explorer 8 (1099)
+289	yibin	Computer (2744)	Windows XP (2024)	Internet Explorer 8 (792)
+353	jiuquan	Computer (1109)	Windows XP (783)	Chrome 21 (296)
+33	eerduosi	Computer (2333)	Windows XP (1628)	Chrome 21 (645)
+69	hegang	Computer (1423)	Windows XP (1168)	Internet Explorer 8 (410)
+156	weihai	Computer (5063)	Windows XP (3714)	Internet Explorer 8 (1372)
+174	xuchang	Computer (4045)	Windows XP (3214)	Internet Explorer 8 (1222)
+56	changchun	Computer (16128)	Windows XP (10840)	Chrome 21 (4028)
+189	ezhou	Computer (2042)	Windows XP (1481)	Chrome 21 (587)
+318	honghe	Computer (2311)	Windows XP (1707)	Chrome 21 (679)
+16	taiyuan	Computer (12334)	Windows XP (8227)	Chrome 21 (3417)
+275	NULL	Computer (35689)	Windows XP (23726)	Chrome 21 (9167)
+10	zhangjiakou	Computer (3263)	Windows XP (2568)	Internet Explorer 8 (899)
+152	yantai	Computer (12040)	Windows XP (8655)	Internet Explorer 8 (3164)
+157	rizhao	Computer (3913)	Windows XP (2830)	Internet Explorer 8 (1076)
+324	diqing	Computer (118)	Windows XP (80)	Chrome 21 (42)
+21	shuozhou	Computer (1136)	Windows XP (828)	Chrome 21 (305)
+30	wuhai	Computer (930)	Windows XP (742)	Chrome 21 (250)
+38	xilinguole	Computer (1031)	Windows XP (753)	Chrome 21 (283)
+68	jixi	Computer (2011)	Windows XP (1708)	Internet Explorer 8 (631)
+194	xianning	Computer (3017)	Windows XP (2176)	Mobile Safari (1066)
+236	jieyang	Computer (16712)	Windows XP (13078)	Chrome 21 (4771)
+252	chongzuo	Computer (370)	Windows XP (304)	Internet Explorer 8 (107)
+325	NULL	Computer (48)	Windows XP (26)	Internet Explorer 8 (18)
+15	NULL	Computer (4324)	Windows XP (3242)	Internet Explorer 8 (1246)
+66	haerbin	Computer (16826)	Windows XP (11760)	Internet Explorer 8 (4379)
+138	jiujiang	Computer (3209)	Windows XP (2285)	Chrome 21 (835)
+228	meizhou	Computer (14605)	Windows XP (11506)	Internet Explorer 8 (3578)
+247	yulin_238	Computer (4651)	Windows XP (3590)	Internet Explorer 8 (1442)
+327	changdu	Computer (49)	Windows XP (38)	Internet Explorer 7 (23)
+328	shannan	Computer (39)	Windows XP (28)	Internet Explorer 7 (11)
+13	langfang	Computer (8068)	Windows XP (5611)	Chrome 21 (2110)
+51	panjin	Computer (2650)	Windows XP (2092)	Internet Explorer 8 (817)
+314	lijiang	Computer (656)	Windows XP (407)	Chrome 21 (171)
+373	zhongwei	Computer (506)	Windows XP (412)	Internet Explorer 8 (134)
+378	hami	Computer (827)	Windows XP (594)	Internet Explorer 8 (225)
+148	qingdao	Computer (19847)	Windows XP (13527)	Chrome 21 (5052)
+319	wenshan	Computer (1095)	Windows XP (817)	Internet Explorer 8 (288)
+360	xining	Computer (2811)	Windows XP (2013)	Chrome 21 (751)
+384	kashi	Computer (1233)	Windows XP (926)	Internet Explorer 8 (355)
+43	anshan	Computer (5277)	Windows XP (4146)	Internet Explorer 8 (1521)
+82	wuxi	Computer (12495)	Windows XP (8293)	Chrome 21 (3141)
+97	wenzhou	Computer (18248)	Windows XP (13071)	Mobile Safari (5881)
+196	enshishi	Computer (1917)	Windows XP (1447)	Internet Explorer 8 (540)
+162	binzhou	Computer (4370)	Windows XP (3372)	Internet Explorer 8 (1260)
+109	bangbu	Computer (2956)	Windows XP (2218)	Internet Explorer 8 (835)
+253	NULL	Computer (472)	Windows XP (307)	Chrome 21 (162)
+4	shijiazhuang	Computer (20161)	Windows XP (14760)	Internet Explorer 8 (5606)
+18	yangquan	Computer (2553)	Windows XP (1969)	Internet Explorer 8 (819)
+59	liaoyuan	Computer (1123)	Windows XP (923)	Internet Explorer 8 (319)
+168	pingdingshan	Computer (4725)	Windows XP (3645)	Internet Explorer 8 (1304)
+201	NULL	Computer (3969)	Windows XP (2551)	Mobile Safari (1008)
+288	meishan	Computer (1869)	Windows XP (1352)	Chrome 21 (506)
+136	jingdezhen	Computer (1646)	Windows XP (1256)	Internet Explorer 8 (437)
+165	zhengzhou	Computer (24899)	Windows XP (17006)	Internet Explorer 8 (6099)
+255	sanya	Computer (520)	Windows XP (369)	Chrome 21 (143)
+295	aba	Computer (508)	Windows XP (345)	Internet Explorer 8 (145)
+121	bozhou	Computer (1847)	Windows XP (1542)	Internet Explorer 8 (509)
+143	yichun_134	Computer (3240)	Windows XP (2484)	Internet Explorer 8 (922)
+179	xinyang	Computer (3852)	Windows XP (2926)	Internet Explorer 8 (1057)
+186	shiyan	Computer (3437)	Windows XP (2463)	Internet Explorer 8 (987)
+277	chengdu	Computer (35210)	Windows XP (20253)	Chrome 21 (9085)
+321	dali	Computer (1461)	Windows XP (937)	Chrome 21 (392)
+348	baiyin	Computer (1050)	Windows XP (803)	Internet Explorer 8 (317)
+362	haibei	Computer (76)	Windows XP (55)	Chrome 21 (25)
+339	yanan	Computer (1342)	Windows XP (1072)	Internet Explorer 8 (422)
+355	dingxi	Computer (542)	Windows XP (400)	Chrome 21 (160)
+369	yinchuan	Computer (4029)	Windows XP (2988)	Internet Explorer 8 (1021)
+126	xiamen	Computer (11329)	Windows XP (7335)	Chrome 21 (3032)
+192	jingzhou	Computer (3825)	Windows XP (2920)	Internet Explorer 8 (1054)
+206	shaoyang	Computer (3228)	Windows XP (2527)	Internet Explorer 8 (911)
+110	huainan	Computer (3230)	Windows XP (2426)	Internet Explorer 8 (916)
+149	zibo	Computer (6788)	Windows XP (5207)	Internet Explorer 8 (1854)
+376	kelamayi	Computer (1087)	Windows XP (787)	Internet Explorer 8 (297)
+8	xingtai	Computer (8180)	Windows XP (6031)	Internet Explorer 8 (2391)
+25	linfen	Computer (3900)	Windows XP (3066)	Internet Explorer 8 (1116)
+29	baotou	Computer (3450)	Windows XP (2552)	Chrome 21 (941)
+163	heze	Computer (4846)	Windows XP (3843)	Internet Explorer 8 (1469)
+354	qingyang	Computer (996)	Windows XP (731)	Internet Explorer 8 (276)
+370	shizuishan	Computer (1016)	Windows XP (768)	Chrome 21 (250)
+35	bayannaoer	Computer (1427)	Windows XP (1107)	Internet Explorer 8 (393)
+44	fushun	Computer (3571)	Windows XP (2789)	Internet Explorer 8 (1052)
+108	wuhu	Computer (3373)	Windows XP (2282)	Chrome 21 (897)
+240	liuzhou	Computer (7075)	Windows XP (5114)	Internet Explorer 8 (1910)
+22	jinzhongshi	Computer (3696)	Windows XP (2692)	Internet Explorer 8 (1056)
+24	xinzhou	Computer (2373)	Windows XP (1783)	Internet Explorer 8 (660)
+27	NULL	Computer (2520)	Windows XP (1849)	Internet Explorer 8 (703)
+103	zhoushan	Computer (1684)	Windows XP (1148)	Mobile Safari (629)
+220	zhuhai	Computer (27616)	Windows XP (17729)	Mobile Safari (20228)
+317	chuxiong	Computer (1005)	Windows XP (638)	Internet Explorer 8 (245)
+46	dandong	Computer (3349)	Windows XP (2664)	Internet Explorer 8 (939)
+83	xuzhou	Computer (10175)	Windows XP (7520)	Internet Explorer 8 (2966)
+101	jinhua	Computer (12699)	Windows XP (9034)	Internet Explorer 8 (3354)
+202	changsha	Computer (20589)	Windows XP (13254)	Mobile Safari (12705)
+41	shenyang	Computer (15746)	Windows XP (10825)	Chrome 21 (3988)
+248	baise	Computer (2498)	Windows XP (1954)	Internet Explorer 8 (671)
+346	jiayuguan	Computer (582)	Windows XP (395)	Chrome 21 (174)
+347	jinchang	Computer (567)	Windows XP (408)	Internet Explorer 8 (172)
+6	qinhuangdao	Computer (4726)	Windows XP (3308)	Chrome 21 (1310)
+39	alashan	Computer (483)	Windows XP (356)	Internet Explorer 8 (120)
+86	nantong	Computer (7780)	Windows XP (5041)	Internet Explorer 8 (1921)
+185	huangshi	Computer (3032)	Windows XP (2211)	Internet Explorer 8 (773)
+398	NULL	Computer (203)	Windows XP (177)	Internet Explorer 7 (95)
+154	jining	Computer (7593)	Windows XP (5663)	Internet Explorer 8 (2225)
+351	zhangye	Computer (661)	Windows XP (472)	Internet Explorer 8 (211)
+374	NULL	Computer (60)	Windows 7 (35)	Chrome 21 (14)
+112	huaibei	Computer (1766)	Windows XP (1449)	Internet Explorer 8 (504)
+178	shangqiu	Computer (4004)	Windows XP (3176)	Internet Explorer 8 (1199)
+307	qiannan	Computer (1479)	Windows XP (1151)	Chrome 21 (418)
+358	gannan	Computer (202)	Windows XP (141)	Internet Explorer 8 (57)
+141	ganzhou	Computer (5734)	Windows XP (4247)	Chrome 21 (1464)
+349	tianshui	Computer (975)	Windows XP (725)	Internet Explorer 8 (269)
+352	pingliang	Computer (1014)	Windows XP (746)	Internet Explorer 8 (278)
+133	ningde	Computer (2239)	Windows XP (1646)	Mobile Safari (868)
+290	guangan	Computer (1461)	Windows XP (1070)	Internet Explorer 8 (388)
+395	NULL	Computer (1198)	Windows 7 (660)	Chrome 30 (210)
+45	benxi	Computer (3183)	Windows XP (2509)	Internet Explorer 8 (868)
+122	chizhou	Computer (1160)	Windows XP (896)	Internet Explorer 8 (324)
+127	putian	Computer (4899)	Windows XP (3619)	Internet Explorer 8 (1610)
+158	laiwu	Computer (1689)	Windows XP (1347)	Internet Explorer 8 (503)
+251	laibin	Computer (1367)	Windows XP (1105)	Internet Explorer 8 (429)
+310	qujing	Computer (1987)	Windows XP (1363)	Internet Explorer 8 (485)
+32	tongliao	Computer (2749)	Windows XP (2253)	Internet Explorer 8 (814)
+282	mianyang	Computer (5145)	Windows XP (3468)	Chrome 21 (1390)
+340	hanzhong	Computer (2973)	Windows XP (2241)	Internet Explorer 8 (912)
+342	ankang	Computer (1557)	Windows XP (1236)	Internet Explorer 8 (491)
+23	yuncheng	Computer (4602)	Windows XP (3789)	Internet Explorer 8 (1494)
+106	NULL	Computer (14666)	Windows XP (10019)	Chrome 21 (4063)
+372	guyuan	Computer (432)	Windows XP (314)	Internet Explorer 8 (143)
+57	jilin_city	Computer (8984)	Windows XP (6934)	Internet Explorer 8 (2631)
+76	heihe	Computer (1661)	Windows XP (1375)	Internet Explorer 8 (542)
+188	xiangfan	Computer (5093)	Windows XP (3831)	Internet Explorer 8 (1379)
+311	yuxi	Computer (1693)	Windows XP (1168)	Internet Explorer 8 (452)
+383	kezilesukeerkezi	Computer (234)	Windows XP (162)	Internet Explorer 8 (83)
+81	nanjing	Computer (21993)	Windows XP (11998)	Chrome 21 (5525)
+85	suzhou_jiangsu	Computer (27715)	Windows XP (17925)	Internet Explorer 8 (6703)
+105	lishui	Computer (3048)	Windows XP (2267)	Mobile Safari (1244)
+89	yancheng	Computer (5885)	Windows XP (4300)	Internet Explorer 8 (1661)
+73	jiamusi	Computer (3149)	Windows XP (2633)	Internet Explorer 8 (937)
+155	taian	Computer (5512)	Windows XP (4207)	Internet Explorer 8 (1606)
+230	heyuan	Computer (9107)	Windows XP (6725)	Chrome 21 (2551)
+366	yushu	Computer (39)	Windows XP (29)	Internet Explorer 7 (16)
+293	bazhong	Computer (1057)	Windows XP (785)	Internet Explorer 8 (295)
+60	tonghua	Computer (2444)	Windows XP (2004)	Internet Explorer 8 (727)
+120	liuan	Computer (2738)	Windows XP (2159)	Internet Explorer 8 (786)
+94	NULL	Computer (3172)	Windows XP (2109)	Chrome 21 (901)
+124	NULL	Computer (2220)	Windows XP (1533)	Mobile Safari (647)
+300	liupanshui	Computer (1165)	Windows XP (892)	Internet Explorer 8 (302)
+7	handan	Computer (7246)	Windows XP (5838)	Internet Explorer 8 (2099)
+235	chaozhou	Computer (9962)	Windows XP (7451)	Chrome 21 (2536)
+345	lanzhou	Computer (7532)	Windows XP (4736)	Chrome 21 (2020)
+359	NULL	Computer (136)	Windows XP (86)	Chrome 21 (37)
+396	NULL	Computer (48)	Windows XP (41)	Internet Explorer 8 (17)
+100	shaoxing	Computer (7924)	Windows XP (5743)	Internet Explorer 8 (2081)
+320	xishuangbanna	Computer (995)	Windows XP (771)	Internet Explorer 8 (308)
+386	yili	Computer (2259)	Windows XP (1790)	Internet Explorer 8 (742)
+237	yunfu	Computer (5721)	Windows XP (4351)	Chrome 21 (1500)
+243	beihai	Computer (2001)	Windows XP (1512)	Internet Explorer 8 (539)
+338	weinan	Computer (3610)	Windows XP (2900)	Internet Explorer 8 (1117)
+375	wulumuqi	Computer (8573)	Windows XP (6005)	Internet Explorer 8 (2111)
+42	dalian	Computer (13246)	Windows XP (8661)	Chrome 21 (3382)
+52	tieling	Computer (2737)	Windows XP (2226)	Internet Explorer 8 (792)
+177	nanyang	Computer (5626)	Windows XP (4323)	Internet Explorer 8 (1619)
+190	jingmen	Computer (3507)	Windows XP (2538)	Internet Explorer 8 (958)
+306	qiandongnan	Computer (1773)	Windows XP (1353)	Internet Explorer 8 (460)
+381	bayinguoleng	Computer (1763)	Windows XP (1323)	Internet Explorer 8 (494)
+159	linyi	Computer (9256)	Windows XP (7223)	Internet Explorer 8 (2708)
+211	chenzhou	Computer (3619)	Windows XP (2798)	Internet Explorer 8 (1042)
+224	zhanjiang	Computer (19790)	Windows XP (14699)	Chrome 21 (5416)
+111	maanshan	Computer (2421)	Windows XP (1716)	Chrome 21 (680)
+171	xinxiang	Computer (6236)	Windows XP (4758)	Internet Explorer 8 (1788)
+187	yichang	Computer (4974)	Windows XP (3608)	Internet Explorer 8 (1314)
+332	linzhi	Computer (62)	Windows XP (46)	Internet Explorer 7 (19)
+337	xianyang	Computer (3743)	Windows XP (2888)	Internet Explorer 8 (1089)
+357	linxia	Computer (445)	Windows XP (338)	Internet Explorer 8 (123)
+367	haixi	Computer (522)	Windows XP (363)	Chrome 21 (137)
+3	NULL	Computer (4797)	Windows XP (3579)	Internet Explorer 8 (1434)
+14	hengshui	Computer (3807)	Windows XP (3035)	Internet Explorer 8 (1257)
+61	baishan	Computer (1796)	Windows XP (1515)	Internet Explorer 8 (538)
+90	yangzhou	Computer (6925)	Windows XP (4804)	Internet Explorer 8 (1872)
+144	fuzhou_134	Computer (2142)	Windows XP (1649)	Internet Explorer 8 (566)
+161	liaocheng	Computer (4586)	Windows XP (3654)	Internet Explorer 8 (1383)
+169	anyang	Computer (4291)	Windows XP (3489)	Internet Explorer 8 (1274)
+170	hebi	Computer (1855)	Windows XP (1456)	Internet Explorer 8 (543)
+231	yangjiang	Computer (11481)	Windows XP (8106)	Chrome 21 (3159)
+278	zigong	Computer (2058)	Windows XP (1568)	Chrome 21 (539)
+291	dazhou	Computer (2542)	Windows XP (1891)	Mobile Safari (778)
+53	chaoyang	Computer (2607)	Windows XP (2168)	Internet Explorer 8 (843)
+129	quanzhou	Computer (11692)	Windows XP (8659)	Mobile Safari (4633)
+167	luoyang	Computer (8045)	Windows XP (6273)	Chrome 21 (2177)
+305	bijie	Computer (1395)	Windows XP (1088)	Internet Explorer 8 (382)
+11	chengde	Computer (2749)	Windows XP (1978)	Chrome 21 (789)
+67	qiqihaer	Computer (4694)	Windows XP (3843)	Internet Explorer 8 (1427)
+204	xiangtan	Computer (3593)	Windows XP (2459)	Chrome 21 (914)
+304	qianxinan	Computer (1401)	Windows XP (1084)	Internet Explorer 8 (355)
+394	NULL	Computer (9761)	Windows 7 (5134)	Chrome 30 (2379)
+49	fuxin	Computer (2933)	Windows XP (2379)	Internet Explorer 8 (864)
+131	nanping	Computer (1904)	Windows XP (1443)	Mobile Safari (609)
+193	huanggang	Computer (3776)	Windows XP (2852)	Internet Explorer 8 (1132)
+232	qingyuan	Computer (14260)	Windows XP (10114)	Chrome 21 (4134)
+285	neijiang	Computer (1937)	Windows XP (1447)	Internet Explorer 8 (517)
+301	zunyi	Computer (2766)	Windows XP (2165)	Mobile Safari (854)
+84	changzhou	Computer (7998)	Windows XP (5350)	Chrome 21 (2059)
+117	fuyang	Computer (1616)	Windows XP (1311)	Internet Explorer 8 (445)
+145	shangrao	Computer (2973)	Windows XP (2312)	Mobile Safari (793)
+249	hezhou	Computer (1113)	Windows XP (810)	Internet Explorer 8 (334)
+363	huangnan	Computer (29)	Windows XP (21)	Chrome 21 (10)
+365	guoluo	Computer (48)	Windows XP (34)	Chrome 21 (14)
+281	deyang	Computer (3664)	Windows XP (2549)	Chrome 21 (971)
+334	xian	Computer (31250)	Windows XP (21144)	Chrome 21 (7770)
+335	tongzhou	Computer (736)	Windows XP (575)	Internet Explorer 8 (215)
+356	longnan	Computer (686)	Windows XP (500)	Internet Explorer 8 (188)
+54	huludao	Computer (2934)	Windows XP (2420)	Internet Explorer 8 (864)
+62	songyuan	Computer (2315)	Windows XP (1919)	Internet Explorer 8 (701)
+107	hefei	Computer (14482)	Windows XP (9466)	Chrome 21 (3532)
+160	dezhou	Computer (4421)	Windows XP (3594)	Internet Explorer 8 (1405)
+239	nanning	Computer (19050)	Windows XP (12876)	Internet Explorer 8 (4807)
+246	guigang	Computer (2587)	Windows XP (2119)	Internet Explorer 8 (735)
+210	yiyang	Computer (2803)	Windows XP (2153)	Internet Explorer 8 (729)
+226	zhaoqing	Computer (15758)	Windows XP (11242)	Chrome 21 (4194)
+279	panzhihua	Computer (1689)	Windows XP (1273)	Chrome 21 (465)
+380	boertala	Computer (521)	Windows XP (414)	Internet Explorer 8 (158)
+17	datong	Computer (3837)	Windows XP (2926)	Chrome 21 (1035)
+50	liaoyang	Computer (2563)	Windows XP (2087)	Internet Explorer 8 (711)
+284	suining	Computer (1940)	Windows XP (1360)	Internet Explorer 8 (525)
+146	NULL	Computer (7061)	Windows XP (5042)	Internet Explorer 8 (2003)
+233	dongguan	Computer (112392)	Windows XP (82156)	Chrome 21 (27229)
+297	liangshan	Computer (1810)	Windows XP (1336)	Chrome 21 (498)
+91	zhenjiang	Computer (4652)	Windows XP (3089)	Chrome 21 (1253)
+209	zhangjiajie	Computer (1025)	Windows XP (792)	Internet Explorer 8 (265)
+245	qinzhou	Computer (2375)	Windows XP (1800)	Internet Explorer 8 (671)
+79	NULL	Computer (49284)	Windows XP (24208)	Chrome 21 (11296)
+132	longyan	Computer (2337)	Windows XP (1799)	Mobile Safari (730)
+137	pingxiang	Computer (1647)	Windows XP (1263)	Internet Explorer 8 (492)
+173	puyang	Computer (2266)	Windows XP (1805)	Internet Explorer 8 (673)
+250	hechi	Computer (2184)	Windows XP (1677)	Internet Explorer 8 (596)
+385	hetian	Computer (351)	Windows XP (277)	Internet Explorer 7 (87)
+123	xuancheng	Computer (2335)	Windows XP (1775)	Internet Explorer 8 (662)
+0	unknown	Computer (108731)	Windows XP (51824)	Internet Explorer 8 (21340)
+399	NULL	Computer (2826)	Windows XP (2083)	Internet Explorer 8 (830)
+47	jinzhou	Computer (4457)	Windows XP (3596)	Internet Explorer 8 (1327)
+214	loudi	Computer (2500)	Windows XP (1975)	Internet Explorer 8 (699)
+397	NULL	Computer (3849)	Windows XP (2745)	Internet Explorer 8 (1009)
+142	jian	Computer (2605)	Windows XP (2022)	Internet Explorer 8 (736)
+238	NULL	Computer (2851)	Windows XP (1939)	Internet Explorer 8 (781)
+2	NULL	Computer (30343)	Windows XP (18724)	Mobile Safari (9591)
+95	hangzhou	Computer (34904)	Windows XP (21514)	Chrome 21 (8978)
+333	NULL	Computer (2912)	Windows XP (1768)	Chrome 21 (768)
+125	fuzhou_124	Computer (15872)	Windows XP (10030)	Chrome 21 (4739)
+241	guilin	Computer (6186)	Windows XP (4332)	Internet Explorer 8 (1624)
+296	ganzi	Computer (441)	Windows XP (283)	Chrome 21 (126)
+329	rikaze	Computer (29)	Windows XP (20)	Internet Explorer 8 (10)
+387	tacheng	Computer (830)	Windows XP (654)	Internet Explorer 8 (236)
+78	daxinganling	Computer (607)	Windows XP (488)	Internet Explorer 8 (174)
+183	NULL	Computer (2304)	Windows XP (1419)	Chrome 21 (608)
+219	shenzhen	Computer (249436)	Windows XP (165802)	Internet Explorer 8 (60079)
+323	nujiang	Computer (169)	Windows XP (131)	Internet Explorer 8 (51)
+104	taizhou	Computer (10770)	Windows XP (7999)	Internet Explorer 8 (2906)
+140	yingtan	Computer (833)	Windows XP (644)	Internet Explorer 8 (216)
+176	sanmenxia	Computer (2974)	Windows XP (2322)	Internet Explorer 8 (871)
+218	shaoguan	Computer (11558)	Windows XP (8482)	Chrome 21 (3178)
+19	changzhi	Computer (2772)	Windows XP (2073)	Internet Explorer 8 (759)
+58	siping	Computer (3664)	Windows XP (2933)	Internet Explorer 8 (1064)
+191	xiaogan	Computer (4299)	Windows XP (3060)	Internet Explorer 8 (1115)
+212	yongzhou	Computer (2689)	Windows XP (2060)	Internet Explorer 8 (739)
+216	NULL	Computer (37697)	Windows XP (23418)	Chrome 21 (10349)
+234	zhongshan	Computer (39419)	Windows XP (28819)	Chrome 21 (10111)
+344	NULL	Computer (977)	Windows XP (634)	Internet Explorer 8 (263)
+350	wuwei	Computer (778)	Windows XP (611)	Internet Explorer 8 (232)
+371	wuzhong	Computer (703)	Windows XP (565)	Internet Explorer 8 (199)
+Time taken: 56.078 seconds, Fetched: 370 row(s)
+...execution of ./hql/query_02_max_usage.hql finished.
+please, select what to do:
+0 - init tables and load data
+1 - create custom UDF function
+2 - find most popular device, browser, OS for each city using custom UDF.
+other - other hql to execute
+quit - quit
